@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Share Tech Mono', monospace;
+    color: #00ff00;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Matrix Canvas Background */
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* Profile Container */
+.container {
+    position: relative;
+    z-index: 1;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #00ff00;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 20px #00ff00;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 36px;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Style */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #aaffaa;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Profile Image Style */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+    margin-top: 20px;
+    object-fit: cover;
+}
